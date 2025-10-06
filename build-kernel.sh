@@ -30,7 +30,7 @@ true ${BUILD_THIRD_PARTY_DRIVER:=1}
 true ${KCFG:=nanopi4_linux_defconfig}
 true ${TARGET_OS:=$(echo ${1,,}|sed 's/\///g')}
 
-KERNEL_REPO=https://github.com/friendlyarm/kernel-rockchip
+KERNEL_REPO=https://github.com/9bingyin/kernel-rockchip
 KERNEL_BRANCH=nanopi-r2-v6.6.y
 case ${TARGET_OS} in
 friendlywrt*)
